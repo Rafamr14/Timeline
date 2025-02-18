@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline de Eventos</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!-- Navbar con iconos de los juegos -->
+<nav id="navbar" class="navbar">
+    <img src="img/Genshin.webp" alt="Genshin" class="game-icon" data-game="Genshin">
+    <img src="img/StarRail.png" alt="Star Rail" class="game-icon" data-game="Star Rail">
+    <img src="img/Zzz.webp" alt="ZZZ" class="game-icon" data-game="ZZZ">
+    <img src="img/Snowbreak.png" alt="Snowbreak" class="game-icon" data-game="Snowbreak">
+    <img src="img/Wuthering.png" alt="Wuthering" class="game-icon" data-game="Wuthering">
+    <button id="reset-filters" class="reset-button">Resetear Filtros</button>
+</nav>
+
+<!-- Contenedor de la timeline -->
+<div id="timeline">
+    <div id="timeline-month-header" class="timeline-month-header"></div>
+    <div id="timeline-header" class="timeline-header"></div>
+    <div id="timeline-content" class="timeline-content">
+        <div id="current-time-cursor" class="current-time-cursor">
+            <span id="current-time-label"></span>
+        </div>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

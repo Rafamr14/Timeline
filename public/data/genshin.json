@@ -1,0 +1,11 @@
+[
+  {
+    "title": "Evento 1",
+    "start": "2024-08-10",
+    "end": "2024-08-12",
+    "image": "./img/pic2.jpg",
+    "juego": "Genshin",
+    "tipo": "Eventos",
+    "imgClass": "img-overlap-event-1"
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "title": "Evento 2",
+    "start": "2024-08-11",
+    "end": "2024-08-13",
+    "image": "./img/pic2.jpg",
+    "juego": "Star Rail",
+    "tipo": "Banners",
+    "imgClass": "img-overlap-event-2"
+  }
+]
